@@ -405,6 +405,7 @@ switch (_code) do
 							player playMove "AmovPercMstpSnonWnonDnon_exercisePushup";
 						};
 				};
+
 				case 71:
 				{
 					
