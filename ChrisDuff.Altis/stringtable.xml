@@ -5,7 +5,7 @@
 			<Original>Close</Original>
 			<English>Close</English>
 			<German>Schließen</German>
-			<French>Fermer</French>
+			<French>Fermer</French> // seconde traduction
 			<Italian>Chiudi</Italian>
 			<Portuguese>Fechar</Portuguese>
 		</Key>
@@ -864,7 +864,7 @@
 			<Original>You need to select a person first!</Original>
 			<English>You need to select a person first!</English>
 			<German>Du musst erst eine Person auswählen!</German>
-			<French>Vous devez choisir une personne d'abord!</French>
+			<French>Vous devez d'abord choisir une personne !</French>
 			<Italian>Devi selezionare una persona!</Italian>
 			<Portuguese>Você tem que selecionar um jogador antes!</Portuguese>
 		</Key>
@@ -872,7 +872,7 @@
 			<Original>You are about to upgrade the maximum members allowed for your gang.</Original>
 			<English>You are about to upgrade the maximum members allowed for your gang.</English>
 			<German>Du bist dabei, die maximale Anzahl an Mitgliedern zu erhöhen.</German>
-			<French>Vous êtes sur le point de mettre à niveau la limite de membre autorisées pour votre gang.</French>
+			<French>Vous êtes sur le point de mettre à niveau la limite de membre autorisés pour votre gang.</French>
 			<Italian>Stai aumentando il numero massimo di membri consentiti all'interno della tua Gang</Italian>
 			<Portuguese>Você vai atualizar o limite de membros da gangue.</Portuguese>
 		</Key>
@@ -5237,7 +5237,7 @@
 			<Original>Rob Person</Original>
 			<English>Rob Person</English>
 			<German>Person ausrauben</German>
-			<French>Rob Person</French>
+			<French>Voler personne</French>
 			<Italian>Rob Person</Italian>		
 			<Portuguese>Roubar Jogador</Portuguese>
 		</Key>

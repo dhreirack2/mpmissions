@@ -83,6 +83,7 @@ switch (_mode) do
 			case "life_inv_handcuffkeys": {"handcuffkeys"};
 			case "life_inv_oilu": {"oilu"};
 			case "life_inv_oilp": {"oilp"};
+			case "life_inv_uwsl": {"uwsl"};
 			case "life_inv_heroinu": {"heroinu"};
 			case "life_inv_heroinp": {"heroinp"};
 			case "life_inv_cannabis": {"cannabis"};

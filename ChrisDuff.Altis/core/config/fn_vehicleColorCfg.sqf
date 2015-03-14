@@ -100,23 +100,6 @@ switch (_vehicle) do
 			["\a3\soft_f_gamma\Van_01\Data\van_01_ext_red_co.paa","civ"]
 		];
 	};
-
-		case "cl3_xr_1000_black":
-	{
-		_ret = 
-		[
-			["\cl3_vehiclefunctions\skins\silver_co.paa","civ"],
-			["\cl3_vehiclefunctions\skins\cardinal_co.paa","civ"],
-			["\cl3_vehiclefunctions\skins\navy_blue_co.paa","civ"],
-			["\cl3_vehiclefunctions\skins\orange_co.paa","civ"],
-			["\cl3_vehiclefunctions\skins\pink_co.paa","civ"],
-			["\cl3_vehiclefunctions\skins\sand_co.paa","civ"],
-			["\cl3_vehiclefunctions\skins\skin_green_co.paa","civ"],
-			["\cl3_vehiclefunctions\skins\skin_white_co.paa","civ"],
-			["\cl3_vehiclefunctions\skins\skin_black_co.paa","civ"],
-			["\cl3_vehiclefunctions\skins\taxiskin_co.paa","civ"]
-		];
-	};
 	
 	case "C_Van_01_transport_F":
 	{

@@ -181,23 +181,6 @@ switch (_vehicle) do
 		};
 	};
 
-		case "cl3_xr_1000_black":
-	{
-		switch (_index) do
-		{
-			case 0: {_color = "Gris"};
-			case 1: {_color = "Bordeaux"};
-			case 2: {_color = "Bleu foncé"};
-			case 3: {_color = "Orange"};
-			case 4: {_color = "Rose"};
-			case 5: {_color = "Sable"};
-			case 6: {_color = "Vert"};
-			case 7: {_color = "Blanc"};
-			case 8: {_color = "Noir"};
-			case 9: {_color = "Jaune"};
-		};
-	};
-
 	case "cl3_range_rover_black":
 	{
 		switch (_index) do

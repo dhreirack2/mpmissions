@@ -35,18 +35,6 @@ switch (_shop) do
 			["O_Heli_Light_02_unarmed_F",75000]
 		];
 	};
-
-	case "civ_moto": {
-		_return = 
-		[
-			["ebike_epoch",50000]
-		];
-
-		if(license_civ_donateurvehicules) then
-        {
-			_return pushBack ["cl3_xr_1000_black",200000];
-		};
-	};
 	
 	case "civ_car":
 	{
@@ -141,7 +129,7 @@ switch (_shop) do
 		if(__GETC__(life_coplevel) >= 3) then
 		{
 			_return pushBack ["C_Hatchback_01_sport_F",25000];
-			_return pushBack ["ford_mondeo_gen",38000]; // ford mondeo gendarmerie
+			_return pushBack ["ford_mondeo_gend",38000]; // ford mondeo gendarmerie
 		};
 		if(__GETC__(life_coplevel) >= 4) then
 		{

@@ -20,9 +20,9 @@ switch (_type) do
     case "cair": {15000}; //Cop Pilot License cost
     case "swat": {35000}; //Swat License cost
     case "cg": {8000}; //Coast guard license cost
-    case "heroin": {25000}; //Heroin processing license cost
-    case "marijuana": {19500}; //Marijuana processing license cost
-    case "medmarijuana": {1500}; //Medical Marijuana processing license cost
+    case "heroin": {75000}; //Heroin processing license cost
+    case "marijuana": {59500}; //Marijuana processing license cost
+    case "medmarijuana": {15500}; //Medical Marijuana processing license cost
     case "gang": {10000}; //Gang license cost
     case "rebel": {800000}; //Rebel license cost
     case "truck": {20000}; //Truck license cost

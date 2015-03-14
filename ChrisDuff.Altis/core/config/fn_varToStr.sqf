@@ -15,14 +15,14 @@ switch (_var) do
 	//Virtual Inventory Items
 	case "life_inv_handcuffs": {"Menotte"};
 	case "life_inv_handcuffkeys": {"Clefs menotte"};
-	case "life_inv_oilu": {(localize "STR_Item_OilU")};
+	case "life_inv_oilu": {(localize "STR_Item_OilU")}; //ce fichier
 	case "life_inv_oilp": {(localize "STR_Item_OilP")};
 	case "life_inv_heroinu": {(localize "STR_Item_HeroinU")};
 	case "life_inv_heroinp": {(localize "STR_Item_HeroinP")};
 	case "life_inv_cannabis": {(localize "STR_Item_Cannabis")};
 	case "life_inv_marijuana": {(localize "STR_Item_Marijuana")};
 	case "life_inv_apple": {(localize "STR_Item_Apple")};
-	case "life_inv_uwsl": {"Unterwassersprengladung"}; //RENAME IT TO ANYTHING YOU LIKE
+	case "life_inv_uwsl": {"Charge explosive sous-marine"}; //RENAME IT TO ANYTHING YOU LIKE
 	case "life_inv_rabbit": {(localize "STR_Item_RabbitMeat")};
 	case "life_inv_salema": {(localize "STR_Item_SalemaMeat")};
 	case "life_inv_ornate": {(localize "STR_Item_OrnateMeat")};
