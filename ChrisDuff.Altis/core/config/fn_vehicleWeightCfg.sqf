@@ -50,8 +50,8 @@ switch (_className) do
 	case "Box_IND_Grenades_F": {250};
 	case "B_supplyCrate_F": {200};
 	case "Land_Pod_Heli_Transport_04_box_F": {700};
-	case "Land_Wreck_Traw_F": {100};
-	case "Land_Wreck_Traw2_F": {100};
+	case "Land_Wreck_Traw_F": {10000};
+	case "Land_Wreck_Traw2_F": {10000};
 	case "cl3_polo_gti_black": {65}; //polo gti
 	case "cl3_golf_mk2_black": {65}; // golf mk2
 	case "cl3_range_rover_black": {75}; // range rover
@@ -69,5 +69,6 @@ switch (_className) do
 	case "cl3_reventon_black": {35}; // lamborghini reventon
 	case "cl3_r8_spyder_black": {35}; // audi r8
 	case "cl3_veyron_blk_wht": {40}; // bugatti veyron
+	case "cl3_bike_Roadskin_black": {5}; // bugatti veyron
 	default {-1};
 };

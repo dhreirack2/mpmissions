@@ -765,6 +765,8 @@ switch(_shop) do
             ["16Rnd_9x21_Mag",nil,25],
             ["9Rnd_45ACP_Mag",nil,45],
             ["6Rnd_45ACP_Cylinder",nil,50],
+            ["arifle_SDAR_F",nil,22050],
+            ["20Rnd_556x45_UW_mag",nil,550],
             ["NVGoggles",nil,1200]
           ]
         ];

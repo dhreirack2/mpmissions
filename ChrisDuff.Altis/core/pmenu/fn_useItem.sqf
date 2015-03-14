@@ -117,12 +117,15 @@ switch (true) do
     	};
 	};
 	case (_item == "uwsl"): {
-		if (("Land_Wreck_Traw_F" == typeOf cursorTarget) OR ("Land_Wreck_Traw2_F" == typeOf cursorTarget)&&([false,_item,1] call life_fnc_handleInv)) then {
+                _OBJ = nearestObject [player, "Land_Wreck_Traw_F"];
+                if (_OBJ==objNull) then {_OBJ = nearestObject [player, "Land_Wreck_Traw2_F"];};
+		if (("Land_Wreck_Traw_F" == typeOf _OBJ) OR ("Land_Wreck_Traw2_F" == typeOf _OBJ)&&(player distance _OBJ < 30)) then {
+                        if (!([false,_item,1] call life_fnc_handleInv)) exitWith {hint "Error: Object not found";};
 			_ship = cursorTarget getVariable "opened";
 			_ship_obj = cursorTarget;
-			if (_ship) then {hint "Le navire a été ouvert !"};
+			if (_ship) then {hint "Le navire a été ouvert!"};
 			if (!_ship) then {
-				hint "Charge explosive attachée, éloignez vous rapidement de l'épave !";
+				hint "The charge has been planted! Get away from the shipwreck!";
 				playSound3D ["A3\Sounds_F\sfx\alarm_independent.wss", _ship_obj];
 				sleep 10;
 				"M_NLAW_AT_F" createVehicle [getPos _ship_obj select 0, getPos _ship_obj select 1, 0];

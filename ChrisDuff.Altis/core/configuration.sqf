@@ -349,7 +349,8 @@ life_garage_prices =
 	["cl3_carrera_gt_black",4200], // porsche carrera gt
 	["ford_mondeo_gend",3000],
     ["ebike_epoch",10000],
-    ["cl3_xr_1000_black",30000]
+    ["cl3_xr_1000_black",30000],
+    ["cl3_bike_Roadskin_black",100]
 ];
 __CONST__(life_garage_prices,life_garage_prices);
 
@@ -400,7 +401,8 @@ life_garage_sell =
 	["B_MRAP_01_F",95000],
 	["ford_mondeo_gend",20000],
 	["ebike_epoch",30000],
-    ["cl3_xr_1000_black",90000]
+    ["cl3_xr_1000_black",90000],
+    ["cl3_bike_Roadskin_black",300]
 ];
 __CONST__(life_garage_sell,life_garage_sell);
 
@@ -469,6 +471,7 @@ life_assur_prices =
 	["B_SDV_01_F",10000],
 	["ford_mondeo_gend",10000],
 	["ebike_epoch",30000],
-    ["cl3_xr_1000_black",90000]
+    ["cl3_xr_1000_black",90000],
+    ["cl3_bike_Roadskin_black",200]
 ];
 __CONST__(life_assur_prices,life_assur_prices);
