@@ -81,7 +81,6 @@ switch (_filter) do
 			["H_Cap_tan",nil,150],
 			["mickeymask","Mask Mickey",650],
 			["H_RacingHelmet_4_F","Casque Moto",150]
-	
 		];
 	};
 	
