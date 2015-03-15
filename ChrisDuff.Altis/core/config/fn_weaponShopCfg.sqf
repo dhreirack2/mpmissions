@@ -1500,6 +1500,13 @@ switch(_shop) do
 
     case "Press":
   {
+
+   switch(true) do
+  {
+  case (playerSide != civilian): {"Vous n'êtes pas civil !"};
+  case (!license_civ_presse): {"Vous n'avez pas votre carte de presse"};
+  default
+  {
     ["Magasin de Press",
       [
         ["Binocular",nil,150],
