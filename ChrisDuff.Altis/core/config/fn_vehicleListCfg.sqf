@@ -28,6 +28,14 @@ switch (_shop) do
 			["C_SUV_01_F",15000]
 		];
 	};
+
+		case "press_civ":
+	{
+		_return = [
+
+			["cl3_transitNews",38000]
+		];
+	};
 	
 	case "med_air_hs": {
 		_return = [

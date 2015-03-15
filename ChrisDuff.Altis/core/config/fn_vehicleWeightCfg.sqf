@@ -69,6 +69,7 @@ switch (_className) do
 	case "cl3_reventon_black": {35}; // lamborghini reventon
 	case "cl3_r8_spyder_black": {35}; // audi r8
 	case "cl3_veyron_blk_wht": {40}; // bugatti veyron
-	case "cl3_bike_Roadskin_black": {5}; // bugatti veyron
+	case "cl3_bike_Roadskin_black": {5}; // velo
+	case "cl3_transitNews": {130}; // press
 	default {-1};
 };

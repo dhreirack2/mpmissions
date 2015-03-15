@@ -1520,7 +1520,9 @@ switch(_shop) do
         ["H_Cap_press",nil,1000],
         ["G_Spectacles_Tinted",nil,1000]
 
-      ]
-    ];
+          ]
+        ];
+      };
+    };
   };
 };
