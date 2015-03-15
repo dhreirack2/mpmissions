@@ -757,6 +757,7 @@ switch(_shop) do
       {
         ["Armurerie",
           [
+            ["Voxid_Pancarte","Pancarte",500],
             ["hgun_Rook40_F",nil,6500],
             ["hgun_Pistol_heavy_02_F",nil,9850],
             ["hgun_ACPC2_F",nil,11500],
@@ -1493,6 +1494,24 @@ switch(_shop) do
         ["ToolKit",nil,250],
         ["FirstAidKit",nil,150],
         ["NVGoggles",nil,1000]
+      ]
+    ];
+  };
+
+    case "Press":
+  {
+    ["Magasin de Press",
+      [
+        ["Binocular",nil,150],
+        ["ItemRadio","Téléphone",100],
+        ["ItemGPS",nil,100],
+        ["ToolKit",nil,250],
+        ["Voxid_Cam",nil,10000],
+        ["NVGoggles",nil,1000],
+        ["V_Press_F",nil,1000],
+        ["NVGoggles",nil,1000],
+        ["NVGoggles",nil,1000],
+
       ]
     ];
   };
